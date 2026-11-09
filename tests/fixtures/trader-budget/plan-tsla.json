@@ -5,7 +5,7 @@
   "date": "2026-10-19",
   "setup": "orb",
   "entry": 364.18,
-  "entry_time": "10:15 AM",
+  "entry_time": "10:00 AM",
   "entry_bar": 8,
   "interval": "5m",
   "opening_range": {"high": 362.18, "low": 354.47, "minutes": 15},
@@ -17,5 +17,5 @@
   "target_label": "1R (one times the risk)",
   "risk_per_share": 5.86,
   "reward_risk": 1.0,
-  "flat_by": "15:55"
+  "flat_by": "15:15"
 }

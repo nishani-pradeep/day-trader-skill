@@ -85,6 +85,9 @@ news / analyst / pelosi                                                        (
 ```
 
 An example, the trade in the reel: Tesla, Monday October 19 2026, real data.
+It is the reel's original US run (New York time, flat by 3:55 PM). The tools now
+use India time: the NSE session is 9:15 AM to 3:30 PM IST and a day trade is
+flat by 3:15 PM by default.
 
 1. **`/trader-scanner`** at 10:15 AM ET: of the 231 charts in the reel's
    scan, 42 had closed above their 15-minute opening range. TSLA is one: range 354.47 to 362.18,
@@ -106,9 +109,9 @@ An example, the trade in the reel: Tesla, Monday October 19 2026, real data.
    the same rule on those 59 real sessions: it fired 33 times, 13 hit the
    target, 15 the stop, 5 neither. Its verdict: close to a coin flip. That is
    the point of looking before you risk a dollar.
-6. **`/trader-budget`** with a $5,000 account and a $50 max loss per trade:
-   50 / 5.86 = 8 shares ($2,913.44). If the stop fills at 358.32, the loss is
-   $46.88. It writes one bracket order: buy 8 TSLA, stop-loss 358.32,
+6. **`/trader-budget`** with an INR 5,000 account and an INR 50 max loss per trade:
+   50 / 5.86 = 8 shares (INR 2,913.44). If the stop fills at 358.32, the loss is
+   INR 46.88. It writes one bracket order: buy 8 TSLA, stop-loss 358.32,
    take-profit 370.04.
 7. **`/trader-risk`** checks it against your limits: the max loss, the daily
    loss limit, trades per day, reward to risk, the entry window, position
@@ -117,8 +120,8 @@ An example, the trade in the reel: Tesla, Monday October 19 2026, real data.
    that exact order. Claude calls your brokerage connector (Alpaca's MCP
    server, paper account by default), and Claude's own "Allow once / Deny"
    card asks you one more time.
-9. **`/trader-alerts`** rings on the stop, the target and at 3:55 PM to
-   flatten whatever is still open.
+9. **`/trader-alerts`** rings on the stop, the target and at your flat-by
+   time (3:15 PM IST by default) to flatten whatever is still open.
 
 ## The tools
 

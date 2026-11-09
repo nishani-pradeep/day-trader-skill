@@ -5,7 +5,7 @@ description: >-
   moves it: Yahoo Finance headlines per ticker, each company's 8-K filings on
   SEC EDGAR (earnings, CEO changes, deals, restatements, bankruptcy) and how
   far each stock is from yesterday's close. Shows only what is new since the
-  last check, newest first, in New York time, tags each item (earnings,
+  last check, newest first, in India time (IST), tags each item (earnings,
   analyst, deal, halt, regulatory, macro...) and never repeats one. Use when
   the user says "any news on TSLA", "why is this moving", "what's the news on
   my watchlist", "morning briefing", "pre-market news", "monitor the news",
@@ -77,6 +77,9 @@ During the session: `/loop 15m /trader-news`, or a scheduled task each
 morning before the open.
 
 ## Example: the reel
+
+This is the reel's original US run, so its times are New York time (ET); the tool
+now prints India time (IST).
 
 Monday 2026-10-19, TSLA broke its opening range at 10:15 AM ET. The check at
 10:15 (Yahoo Finance's TSLA feed, 16 headlines since 8:00) leads with the
