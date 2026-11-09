@@ -1,0 +1,181 @@
+.claude-plugin/marketplace.json
+  s_29d7399f935b7b::t_fa086f1bf2061f 1-18
+.claude-plugin/plugin.json
+  s_29d7399f935b7b::t_ce0dd81ea8f6f4 1-22
+LICENSE
+  s_29d7399f935b7b::t_ceefc3b5160ddb 1-21
+README.md
+  s_29d7399f935b7b::t_a369bbead015ae 1-216
+tests/_load.py
+  s_29d7399f935b7b::t_55dc003a10040d 1-15
+tests/fixtures/trader-alerts/stooq-AAPL.csv
+  s_29d7399f935b7b::t_0e0357505c2b2c 1-2
+tests/fixtures/trader-alerts/stooq-ZZZZ.csv
+  s_29d7399f935b7b::t_6a6b2a8c4c0a77 1-2
+tests/fixtures/trader-alerts/yahoo-AAPL.json
+  s_29d7399f935b7b::t_16f8e8385b04d7 1
+tests/fixtures/trader-alerts/yahoo-AXP.json
+  s_29d7399f935b7b::t_02a1511dac6f2e 1
+tests/fixtures/trader-alerts/yahoo-BAC.json
+  s_29d7399f935b7b::t_d605f3ea4c160d 1
+tests/fixtures/trader-alerts/yahoo-GOOGL.json
+  s_29d7399f935b7b::t_68c4ff56fe9261 1
+tests/fixtures/trader-alerts/yahoo-KO.json
+  s_29d7399f935b7b::t_dd820111f9e7c4 1
+tests/fixtures/trader-alerts/yahoo-TSLA.json
+  s_29d7399f935b7b::t_a135449f3b3509 1
+tests/fixtures/trader-alerts/yahoo-ZZZZ.json
+  s_29d7399f935b7b::t_adefb7d27f2f15 1
+tests/fixtures/trader-analyst/000032019326000018/index.json
+  s_29d7399f935b7b::t_fc96488e153ae3 1
+tests/fixtures/trader-analyst/company_tickers.json
+  s_29d7399f935b7b::t_3a3930b0644aa9 1-17
+tests/fixtures/trader-analyst/companyfacts-CIK0000021344.json
+  s_29d7399f935b7b::t_e857be4c5989e6 1
+tests/fixtures/trader-analyst/companyfacts-CIK0000320193.json
+  s_29d7399f935b7b::t_145b33787a05f6 1
+tests/fixtures/trader-analyst/submissions-CIK0000021344.json
+  s_29d7399f935b7b::t_d9db31a530e4aa 1-352
+tests/fixtures/trader-analyst/submissions-CIK0000320193.json
+  s_29d7399f935b7b::t_6d81333ef6f3e5 1-512
+tests/fixtures/trader-budget/berkshire-q2-2026-top5.json
+  s_29d7399f935b7b::t_2fae8be25dc5b8 1-48
+tests/fixtures/trader-budget/plan-tsla.json
+  s_29d7399f935b7b::t_136c260ea8ffb7 1-21
+tests/fixtures/trader-entry/DEMO-1m-synthetic.json
+  s_29d7399f935b7b::t_240f84c5892077 1
+tests/fixtures/trader-entry/TSLA-2026-10-19-5m.json
+  s_29d7399f935b7b::t_4ea868b5d7f488 1
+tests/fixtures/trader-news/chart-TSLA.json
+  s_29d7399f935b7b::t_b25c39b02fa02b 1
+tests/fixtures/trader-news/company_tickers.json
+  s_29d7399f935b7b::t_d606d785094f13 1-37
+tests/fixtures/trader-news/sec-8-K-0000021344.xml
+  s_29d7399f935b7b::t_633b5184a3c55f 1-106
+tests/fixtures/trader-news/sec-8-K-0000320193.xml
+  s_29d7399f935b7b::t_deb68abe33de47 1-121
+tests/fixtures/trader-news/yahoo-AAPL.xml
+  s_29d7399f935b7b::t_6c8a4def924282 1-60
+tests/fixtures/trader-news/yahoo-KO.xml
+  s_29d7399f935b7b::t_ec69c75cbf6084 1-46
+tests/fixtures/trader-news/yahoo-TSLA.xml
+  s_29d7399f935b7b::t_c110de5ed41fcb 1-144
+tests/fixtures/trader-pelosi/ptr-20033725-excerpt.txt
+  s_29d7399f935b7b::t_a8527cadd51fdb 1-58
+tests/fixtures/trader-pelosi/ptr-20035143.txt
+  s_29d7399f935b7b::t_b8fdb2cd5815c4 1-73
+tests/fixtures/trader-pelosi/ptr-20035562-excerpt.txt
+  s_29d7399f935b7b::t_c7ea0e94ae09b1 1-85
+tests/fixtures/trader-pelosi/ptr-20035590.txt
+  s_29d7399f935b7b::t_51e90264788e22 1-48
+tests/fixtures/trader-risk/orders-reel.json
+  s_29d7399f935b7b::t_09d5add4a512b2 1-41
+tests/fixtures/trader-risk/orders-tsla.json
+  s_29d7399f935b7b::t_902e0ba8cc4b4c 1-31
+tests/fixtures/trader-scanner/TSLA-5m-live-2026-10-20-1001.json
+  s_29d7399f935b7b::t_dd9307e8b35b54 1
+tests/fixtures/trader-scanner/daily-spark-2026-10-19.json
+  s_29d7399f935b7b::t_bd40f59ec94845 1
+tests/fixtures/trader-scanner/spark-3mo-live-2026-10-20.json
+  s_29d7399f935b7b::t_43ca089fa8cdc5 1
+tests/fixtures/trader-scanner/spark-5m-live-2026-10-20-1001.json
+  s_29d7399f935b7b::t_e14181d2fed864 1
+tests/fixtures/trader-scanner/symdir/nasdaqlisted.txt
+  s_29d7399f935b7b::t_90cca2231958fb 1-20
+tests/fixtures/trader-scanner/symdir/otherlisted.txt
+  s_29d7399f935b7b::t_164bc5df1d311d 1-20
+tests/test_alerts.py
+  s_29d7399f935b7b::t_b5f22580b08bdd 1-454
+tests/test_analyst.py
+  s_29d7399f935b7b::t_d439ec04bf04e9 1-163
+tests/test_broker.py
+  s_29d7399f935b7b::t_84b85f63acd37a 1-307
+tests/test_budget.py
+  s_29d7399f935b7b::t_087f36a27bf3ce 1-374
+tests/test_entry.py
+  s_29d7399f935b7b::t_c429044e2c189b 1-605
+tests/test_exit.py
+  s_29d7399f935b7b::t_d549ffde8b5873 1-290
+tests/test_news.py
+  s_29d7399f935b7b::t_0bf233e973dd2a 1-208
+tests/test_pelosi.py
+  s_29d7399f935b7b::t_458f9d62bc741e 1-200
+tests/test_repo.py
+  s_29d7399f935b7b::t_db9bea00b7f420 1-139
+tests/test_risk.py
+  s_29d7399f935b7b::t_f4443c50635181 1-523
+tests/test_scanner.py
+  s_29d7399f935b7b::t_94ce6ea9d35720 1-646
+tests/test_timemachine.py
+  s_29d7399f935b7b::t_b4fcc681e6bb62 1-614
+trader-alerts/SKILL.md
+  s_29d7399f935b7b::t_8c5d6cfa6cfbe2 1-160
+trader-alerts/alerts.example.json
+  s_29d7399f935b7b::t_51b090f4ecf580 1-9
+trader-alerts/alerts.py
+  s_29d7399f935b7b::t_71d1a3c3970a6e 1-787
+trader-analyst/SKILL.md
+  s_29d7399f935b7b::t_c2f74d684322f8 1-123
+trader-analyst/facts.py
+  s_29d7399f935b7b::t_224378e00e90b0 1-548
+trader-analyst/metrics.example.json
+  s_29d7399f935b7b::t_8e2a1a80b910f0 1-85
+trader-broker/SKILL.md
+  s_29d7399f935b7b::t_dceeb7aba792dc 1-212
+trader-broker/claude_desktop_config.example.json
+  s_29d7399f935b7b::t_aa0ec21ea5484f 1-14
+trader-broker/ticket.py
+  s_29d7399f935b7b::t_2e5e25c3565864 1-720
+trader-budget/SKILL.md
+  s_29d7399f935b7b::t_1d9868f74dd664 1-166
+trader-budget/config.example.json
+  s_29d7399f935b7b::t_9fa14a4ab6757e 1-25
+trader-budget/size.py
+  s_29d7399f935b7b::t_3251bcfe974472 1-881
+trader-budget/targets.example.json
+  s_29d7399f935b7b::t_a637aba2096f2b 1-11
+trader-entry/SKILL.md
+  s_29d7399f935b7b::t_8c06fcb1474908 1-144
+trader-entry/entry.py
+  s_29d7399f935b7b::t_84f005c8b3384b 1-960
+trader-exit/SKILL.md
+  s_29d7399f935b7b::t_32a9384a755d0a 1-132
+trader-exit/exit.py
+  s_29d7399f935b7b::t_e9304fb4a40d91 1-735
+trader-news/SKILL.md
+  s_29d7399f935b7b::t_99f0d5dcc065c3 1-104
+trader-news/news.py
+  s_29d7399f935b7b::t_5280795322042c 1-546
+trader-pelosi/SKILL.md
+  s_29d7399f935b7b::t_f779381ddca884 1-158
+trader-pelosi/ptr.py
+  s_29d7399f935b7b::t_a5d51bf1f21303 1-566
+trader-risk/SKILL.md
+  s_29d7399f935b7b::t_7946f16a9fba43 1-172
+trader-risk/check.py
+  s_29d7399f935b7b::t_2e1db56d2456bb 1-819
+trader-scanner/SKILL.md
+  s_29d7399f935b7b::t_7a0c7528c03a74 1-203
+trader-scanner/scan.py
+  s_29d7399f935b7b::t_6363dd55aafe8b 1-1083
+trader-timemachine/SKILL.md
+  s_29d7399f935b7b::t_cf931df421afe8 1-168
+trader-timemachine/timemachine.py
+  s_29d7399f935b7b::t_f78ecd8768a703 1-956
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "43375659998e7e0e48e8f7567e6a4d6b6710a160",
+  "prompts": {},
+  "sessions": {
+    "s_29d7399f935b7b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "11c8d31a-943f-4ea9-b764-13ad51b74410",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Pradeep Nishani <nishani.pradeep24@gmail.com>"
+    }
+  }
+}
